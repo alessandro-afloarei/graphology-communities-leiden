@@ -1,6 +1,6 @@
 {
   "name": "@aflsolutions/graphology-communities-leiden",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Leiden community detection algorithm for graphology. Extracted from the graphology monorepo.",
   "main": "index.js",
   "types": "index.d.ts",
