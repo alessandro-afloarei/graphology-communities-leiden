@@ -1,0 +1,46 @@
+{
+  "name": "@aflsolutions/graphology-communities-leiden",
+  "version": "1.1.0",
+  "description": "Leiden community detection algorithm for graphology. Extracted from the graphology monorepo.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "*.d.ts",
+    "index.js",
+    "utils.js",
+    "LICENSE.txt"
+  ],
+  "keywords": [
+    "community",
+    "detection",
+    "graph",
+    "graphology",
+    "leiden",
+    "clustering"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aflsolutions/graphology-communities-leiden.git"
+  },
+  "homepage": "https://github.com/aflsolutions/graphology-communities-leiden#readme",
+  "bugs": {
+    "url": "https://github.com/aflsolutions/graphology-communities-leiden/issues"
+  },
+  "author": "Guillaume Plique <guillaume.plique@sciencespo.fr>",
+  "contributors": [
+    "Alessandro Afloarei <alessandro.afloarei@aflsolutions.it>"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "graphology-types": ">=0.19.0"
+  },
+  "dependencies": {
+    "graphology-indices": "^0.17.0",
+    "graphology-utils": "^2.3.0",
+    "mnemonist": "^0.39.0",
+    "pandemonium": "^2.4.0"
+  },
+  "devDependencies": {
+    "graphology": "^0.26.0"
+  }
+}
