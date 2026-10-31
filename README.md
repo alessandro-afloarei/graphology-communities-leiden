@@ -1,4 +1,4 @@
-# @aflsolutions/graphology-communities-leiden
+# @alessandro-afloarei/graphology-communities-leiden
 
 Leiden community detection for [`graphology`](https://graphology.github.io), with a hard cap on outer iterations for use on very large graphs.
 
@@ -16,7 +16,7 @@ The default behavior is unchanged (`maxIterations: 0` = unlimited, run until con
 
 | File | Change |
 |---|---|
-| `package.json` | Renamed to `@aflsolutions/graphology-communities-leiden`; bumped to `1.1.0`; trimmed `files` to ship only what's needed; kept upstream `repository` field pointing at the original location |
+| `package.json` | Renamed to `@alessandro-afloarei/graphology-communities-leiden`; bumped to `1.1.0`; trimmed `files` to ship only what's needed; kept upstream `repository` field pointing at the original location |
 | `index.d.ts` | Added `maxIterations?: number` to `LeidenOptions` with JSDoc explaining the trade-off |
 | `index.js` | Added `maxIterations: 0` to the `DEFAULTS` object; added a single `if (options.maxIterations > 0 && iteration >= options.maxIterations) break;` guard at the top of the outer `while` loop in `undirectedLeiden` |
 
@@ -25,13 +25,13 @@ No algorithmic changes. No changes to `utils.js`, `utils.d.ts`, or `LICENSE.txt`
 ## Installation
 
 ```sh
-npm install @aflsolutions/graphology-communities-leiden
+npm install @alessandro-afloarei/graphology-communities-leiden
 ```
 
 ## Usage
 
 ```js
-import leiden from '@aflsolutions/graphology-communities-leiden';
+import leiden from '@alessandro-afloarei/graphology-communities-leiden';
 
 // Default: run until convergence (matches upstream)
 const communities = leiden(graph);
