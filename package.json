@@ -1,5 +1,5 @@
 {
-  "name": "@aflsolutions/graphology-communities-leiden",
+  "name": "@alessandro-afloarei/graphology-communities-leiden",
   "version": "1.1.1",
   "description": "Leiden community detection algorithm for graphology. Extracted from the graphology monorepo.",
   "main": "index.js",
@@ -20,15 +20,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aflsolutions/graphology-communities-leiden.git"
+    "url": "git+https://github.com/alessandro-afloarei/graphology-communities-leiden.git"
   },
-  "homepage": "https://github.com/aflsolutions/graphology-communities-leiden#readme",
+  "homepage": "https://github.com/alessandro-afloarei/graphology-communities-leiden#readme",
   "bugs": {
-    "url": "https://github.com/aflsolutions/graphology-communities-leiden/issues"
+    "url": "https://github.com/alessandro-afloarei/graphology-communities-leiden/issues"
   },
   "author": "Guillaume Plique <guillaume.plique@sciencespo.fr>",
   "contributors": [
-    "Alessandro Afloarei <alessandro.afloarei@aflsolutions.it>"
+    "Alessandro Afloarei"
   ],
   "license": "MIT",
   "peerDependencies": {
